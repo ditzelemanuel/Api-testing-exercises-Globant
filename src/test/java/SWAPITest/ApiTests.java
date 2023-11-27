@@ -57,6 +57,19 @@ public class ApiTests {
         Response filmResponse = ApiRequests.getFilmByUrl(person.getFilms().get(1));
         Film film = filmResponse.as(Film.class);
 
-        Response planetByUrl = ApiRequests.getPlanetByUrl(film.getPlanets().get(1));
+        Response planetResponse = ApiRequests.getPlanetByUrl(film.getPlanets().get(0));
+        Planet planet = planetResponse.as(Planet.class);
+
+        String planetFromResponse = planet.getUrl();
+        Response secondPlanetResponse = ApiRequests.getPlanetByUrl(planetFromResponse);
+        Planet secondPlanet = secondPlanetResponse.as(Planet.class);
+
+        Assert.assertEquals(planet, secondPlanet);
+    }
+
+    @Test
+    public void requestFilmAndCheck404CodeResponse() {
+        Response response = ApiRequests.getFilmById(7);
+        Assert.assertEquals(response.getStatusCode(),404);
     }
 }

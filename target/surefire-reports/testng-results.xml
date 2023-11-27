@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-26T01:40:09 ART" name="Surefire suite" finished-at="2023-11-26T01:40:49 ART" duration-ms="40834">
+  <suite started-at="2023-11-27T00:54:58 ART" name="Surefire suite" finished-at="2023-11-27T00:55:28 ART" duration-ms="30655">
     <groups>
     </groups>
-    <test started-at="2023-11-26T01:40:09 ART" name="Surefire test" finished-at="2023-11-26T01:40:49 ART" duration-ms="40834">
+    <test started-at="2023-11-27T00:54:58 ART" name="Surefire test" finished-at="2023-11-27T00:55:28 ART" duration-ms="30655">
       <class name="SWAPITest.ApiTests">
-        <test-method signature="checkGravityAndTerrainsLevels()[pri:0, instance:SWAPITest.ApiTests@23986957]" started-at="2023-11-26T01:40:09 ART" name="checkGravityAndTerrainsLevels" finished-at="2023-11-26T01:40:22 ART" duration-ms="13731" status="PASS">
+        <test-method signature="checkGravityAndTerrainsLevels()[pri:0, instance:SWAPITest.ApiTests@23f7d05d]" started-at="2023-11-27T00:54:58 ART" name="checkGravityAndTerrainsLevels" finished-at="2023-11-27T00:55:08 ART" duration-ms="10405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkGravityAndTerrainsLevels -->
-        <test-method signature="checkUrlIsTheSameAsTheRequest()[pri:0, instance:SWAPITest.ApiTests@23986957]" started-at="2023-11-26T01:40:22 ART" name="checkUrlIsTheSameAsTheRequest" finished-at="2023-11-26T01:40:36 ART" duration-ms="13171" status="PASS">
+        <test-method signature="checkUrlIsTheSameAsTheRequest()[pri:0, instance:SWAPITest.ApiTests@23f7d05d]" started-at="2023-11-27T00:55:08 ART" name="checkUrlIsTheSameAsTheRequest" finished-at="2023-11-27T00:55:19 ART" duration-ms="10539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkUrlIsTheSameAsTheRequest -->
-        <test-method signature="getPeopleById()[pri:0, instance:SWAPITest.ApiTests@23986957]" started-at="2023-11-26T01:40:36 ART" name="getPeopleById" finished-at="2023-11-26T01:40:39 ART" duration-ms="3059" status="PASS">
+        <test-method signature="getPeopleById()[pri:0, instance:SWAPITest.ApiTests@23f7d05d]" started-at="2023-11-27T00:55:19 ART" name="getPeopleById" finished-at="2023-11-27T00:55:21 ART" duration-ms="2536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPeopleById -->
-        <test-method signature="getSecondFilm()[pri:0, instance:SWAPITest.ApiTests@23986957]" started-at="2023-11-26T01:40:39 ART" name="getSecondFilm" finished-at="2023-11-26T01:40:49 ART" duration-ms="10779" status="PASS">
+        <test-method signature="getSecondFilm()[pri:0, instance:SWAPITest.ApiTests@23f7d05d]" started-at="2023-11-27T00:55:21 ART" name="getSecondFilm" finished-at="2023-11-27T00:55:26 ART" duration-ms="5237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getSecondFilm -->
+        <test-method signature="requestFilmAndCheck404CodeResponse()[pri:0, instance:SWAPITest.ApiTests@23f7d05d]" started-at="2023-11-27T00:55:26 ART" name="requestFilmAndCheck404CodeResponse" finished-at="2023-11-27T00:55:28 ART" duration-ms="1868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestFilmAndCheck404CodeResponse -->
       </class> <!-- SWAPITest.ApiTests -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->

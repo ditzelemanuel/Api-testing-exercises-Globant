@@ -9,4 +9,6 @@ public class Planet {
     private String name;
     private String gravity;
     private String terrain;
-}
+    private String url;
+    }
+
