@@ -11,22 +11,27 @@ This repository showcases comprehensive API testing exercises completed as part 
 ## Test Scenarios
   
 - Test People Endpoint
+
 Validate the success response for the endpoint people/2/.
 Check the skin color to be gold and the appearance in 6 films.
 
 - Test Second Movie for People
+
 Request the endpoint of the second movie in which people/2/ was present.
 Validate the release date format and response elements.
 
 - Test First Planet in Last Film
+  
 Get the first planet in the last film from the previous response.
 Check gravity and terrains matching exact values using fixtures.
 
 - Test Planet URL Match
+  
 Grab the URL element from the planet response.
 Request the URL and validate the response is exactly the same.
 
 - Test Film Not Found
+  
 Request the non-existent endpoint /films/7/.
 Check that the response has a 404 status code.
 
