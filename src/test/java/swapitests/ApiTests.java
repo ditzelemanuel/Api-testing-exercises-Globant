@@ -1,8 +1,13 @@
-package SWAPITest;
+package swapitests;
 
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import swapi.models.Film;
+import swapi.models.Person;
+import swapi.models.Planet;
+import swapi.requests.ApiRequests;
+import swapi.utils.Fixtures;
 
 
 public class ApiTests {

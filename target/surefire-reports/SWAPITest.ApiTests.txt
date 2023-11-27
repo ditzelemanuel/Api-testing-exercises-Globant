@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: SWAPITest.ApiTests
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.45 s -- in SWAPITest.ApiTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.41 s -- in SWAPITest.ApiTests

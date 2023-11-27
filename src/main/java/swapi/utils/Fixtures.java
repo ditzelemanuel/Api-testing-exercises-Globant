@@ -1,4 +1,4 @@
-package SWAPITest;
+package swapi.utils;
 
 public class Fixtures {
     public static final String GRAVITY = "N/A";
