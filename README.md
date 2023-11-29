@@ -2,6 +2,13 @@
 
 This repository showcases comprehensive API testing exercises completed as part of a course offered by Globant.
 
+## Prerequisites
+
+Before running the project, ensure you have the following installed on your computer:
+
+1. [Java JDK]
+2. [Maven]
+
 ## Features
 
 - Java-based API testing using RestAssured
